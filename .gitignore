@@ -40,7 +40,7 @@ htmlcov/
 *.log
 
 # Data (large files - keep only sample in repo if needed)
-data/*.csv
+#data/*.csv
 !data/.gitkeep
 artifacts/*.pkl
 artifacts/*.parquet
