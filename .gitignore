@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+aurora/
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# Test / Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Data (large files - keep only sample in repo if needed)
+data/*.csv
+!data/.gitkeep
+artifacts/*.pkl
+artifacts/*.parquet
+!artifacts/.gitkeep
+
+# Model outputs
+*.model
+*.pkl
+*.joblib
